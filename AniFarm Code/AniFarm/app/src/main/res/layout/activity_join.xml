@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="kr.ac.kumoh.ce.s20100884.database.Join">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="44dp">
+    <EditText
+        android:id="@+id/joinID"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="ID" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="중복확인"
+        android:id="@+id/idcheckBtn"/>
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/joinPass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/joinName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="이름" />
+    <EditText
+        android:id="@+id/joinSex"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="성별" />
+    <EditText
+        android:id="@+id/joinAge"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="나이" />
+
+    <EditText
+        android:id="@+id/joinEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="E-mail" />
+    <EditText
+        android:id="@+id/joinNumber"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="Phone Number( - 제외)" />
+    <EditText
+        android:id="@+id/joinLocate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="사는 곳" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가입 완료"
+        android:id="@+id/joinBtn"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

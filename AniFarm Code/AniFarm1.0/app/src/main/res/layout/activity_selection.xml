@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#fff7ec"
+    tools:context="kr.ac.kumoh.ce.s20100884.database.activity_Selection">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/pet"
+                android:padding="5dp"
+                android:id="@+id/petRegisterBtn"
+                android:layout_weight="0.39" />
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/sitter"
+                android:padding="5dp"
+                android:id="@+id/petSitterBtn"
+                android:layout_weight="0.34" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/select"
+                android:padding="5dp"
+                android:id="@+id/petSerchBtn"/>
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="126dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/tjfwjd"
+                android:padding="5dp"
+                android:id="@+id/settingBtn"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

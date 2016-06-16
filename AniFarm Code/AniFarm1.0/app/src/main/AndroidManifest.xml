@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.kumoh.ce.s20100884.database">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".Member"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBGiPfbuM23mKQ62TFnCHRsFgFIGULqYrI" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name=".Join" />
+        <activity android:name=".activity_Selection" />
+        <activity android:name=".PetSearch" />
+        <activity
+            android:name=".PetRegister"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity android:name=".SitterRegister" />
+        <activity android:name=".Sitter_Search" />
+        <activity android:name=".PetInfomation" />
+        <activity android:name=".SitterInfomation" />
+        <activity android:name=".ListItem" />
+        <activity android:name=".DetailPet" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".DetailSitter" />
+        <activity android:name=".ListSitter"></activity>
+    </application>
+
+</manifest>
